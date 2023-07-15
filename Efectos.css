@@ -1,0 +1,428 @@
+/* Estilos para la barra de navegación */
+body{
+    font-family: "Timmana";
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    z-index: 999;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #e8e8e8;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+    color: #b5e0ff;
+  }
+  
+  /* Estilos para las secciones */
+  #inicio {
+    background-image: url(Portada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+  }
+  
+  h1, h2 {
+    color: #b5e0ff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  section {
+    padding: 150px;
+  }
+  
+  section:nth-child(even) {
+    background-color: #1c1b3a;
+  }
+
+  #servicios {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  li img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  li p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  li:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+  }
+
+  #inicio h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  
+  #inicio h2 {
+    font-size: 24px;
+    margin-bottom: 60px;
+  }
+  
+  #inicio button {
+    background-color: #3d3d4d;
+    border: none;
+    color: #e8e8e8;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #inicio button:hover {
+    background-color: #b5e0ff;
+    color: #1c1b3a;
+  }
+  /* Estilos para la sección de servicios */
+
+#servicios {
+  background-image: url(FondoServicios.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  }
+
+#servicios {
+    background-color: #5a2451;
+    color: #08061a;
+    padding: 50px;
+  }
+  
+  #servicios h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  #servicios ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px; 
+  }
+  
+  #servicios li {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 40px;
+    position: relative;
+    width: 500px;
+  }
+  
+  #servicios img {
+    width: 100%;
+    display: block;
+  }
+  
+  #servicios p {
+    background-color: #0f0e29;
+    bottom: 0;
+    color: #e8e8e8;
+    font-size: 20px;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+  }
+
+  
+  /*Estilos para la seccion de reseñas*/
+
+  #reseñas {
+    background-image: url(FondoReseñas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #3cff5d91;
+  }
+
+  #reseñas ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #reseñas li {
+    margin: 20px 0;
+    position: relative;
+    background-color: #230e29;
+  }
+
+  #reseñas li img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  #reseñas li span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #a39595;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    text-align: center;
+  }
+
+  #reseñas li p {
+    margin-top: 20px;
+  }
+
+  /* Estilos para el formulario de contacto */
+
+  #contacto {
+    background-color: #0f0e29;
+    color: #f002f8;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url(FondoContacto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    font-weight: bold;
+  }
+  
+  form {
+    display: inline-block;
+    margin-top: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    background-color: transparent;
+    border: 2px solid #e8e8e8;
+    color: #e8e8e8;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #3d3d4d;
+    border: none;
+    color: #e8e8e8;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #b5e0ff;
+    color: #1c1b3a;
+  }
+  
+  #contacto p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+/* Media queries para dispositivos móviles */
+@media (max-width: 767px) {
+
+  nav + * {
+    margin-top: 250px;
+  }
+
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  nav li:last-child {
+    margin-left: 0;
+  }
+
+  h1, h2 {
+    font-size: 24px;
+  }
+
+  #servicios li {
+    flex-basis: 100%;
+    width: auto;
+  }
+
+  #servicios p {
+    font-size: 16px;
+  }
+
+  #reseñas li img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #reseñas li span {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+  }
+
+  #reseñas li p {
+    font-size: 16px;
+  }
+
+  form input[type="submit"] {
+    padding: 8px 16px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  footer ul {
+    margin-top: 10px;
+  }
+
+  .fab {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  
+  
+}
+  
+  /* Estilos para el pie de página */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    z-index: 999;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    margin: 0 10px;
+  }
+  
+  footer a {
+    color: #e8e8e8;
+    text-decoration: none;
+  }
+  
+  /* Estilos para los iconos de redes sociales */
+  .fab {
+    color: #27757a;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+
+  /* Ajustes adicionales para los contenidos */
+.contenido {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Ajuste adicional para los contenidos en dispositivos móviles */
+  .contenido {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
